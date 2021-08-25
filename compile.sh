@@ -1,0 +1,1 @@
+gcc -std=c11 -Wall -Werror -g3 -O0 -o smallsh smallsh.c -D_POSIX_C_SOURCE=200809L
