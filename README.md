@@ -4,7 +4,7 @@ Description:
     Replicate the funcitonality shell in C with subset of features known as bash.
 
 How to set up:
-	1.) Download all compile.sh and smallsh.c
+	1.) Download all p3testscript.sh, compile.sh and smallsh.c
 	2.) Naviate through the terminal until you have reached the directory with all the files. 
 	Use the ls command to see all directories and cd into the one you need to get to.
 
