@@ -42,7 +42,7 @@ Program Command (status):
 Program Command (<, >):
     - Files may be redirected following the format input above.
 
-Program Command (^z or ctrl+c):
+Program Command (^c or ctrl+c):
     - This will terminate a foreground process and display the signal it was terminated with.
     - This will not affect background processes.
 
