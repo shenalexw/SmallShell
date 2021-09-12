@@ -21,6 +21,8 @@ In this assignment you will write smallsh your own shell in C. smallsh will impl
 - Support running commands in foreground and background processes
 - Implement custom handlers for 2 signals, SIGINT and SIGTSTP
 
+The p3testscript is a bash script that starts the smallsh program and runs commands on smallsh's command line. Most of the commands run by the grading script are very similar to the commands shown in the section Sample Program Execution. You can open the script in a text editor. The comments in the script will show you the points for individual items. Use the script to prepare for your grade, as this is how it's being earned.
+
 ## How To Use
 
 ### Installation
@@ -28,11 +30,13 @@ In this assignment you will write smallsh your own shell in C. smallsh will impl
 ```
 	chmod +x compile.sh
 	./compile.sh
+	./smallsh
 ```
 #### Test script
 ```
 	chmod +x p3testscript
 	./p3testscript
+	./p3testscript 2>&1
 ```
 ### Format Input
 ```
