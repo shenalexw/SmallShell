@@ -40,7 +40,7 @@ The p3testscript is a bash script that starts the smallsh program and runs comma
 ```
 ### Format Input
 ```
-    : command [arg1 arg2 ...] [< input_file] [> output_file] [&]
+    	: command [arg1 arg2 ...] [< input_file] [> output_file] [&]
 ```
 - Command will be able to replicate most shell commands.
 - Arguments may be placed into the front of the command
