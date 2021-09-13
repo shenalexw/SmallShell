@@ -49,20 +49,20 @@ The p3testscript is a bash script that starts the smallsh program and runs comma
     
 ### exit
 ```
-    : exit
+	: exit
 ```
 - Terminates all background processes and returns to the main terminal of the directory.
 
 ### cd
 ```
-    : cd [desired directory path]
+	: cd [desired directory path]
 ```
 - Without an argument, the program will return the user to the home directory
 - Go to a path through only the first argument after cd.
 
 ### status:
 ```
-    : status
+	: status
 ```
 - Will print the status of the last process if it was terminated normally or through a signal.
 
